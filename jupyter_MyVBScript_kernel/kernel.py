@@ -1214,7 +1214,7 @@ echo "OK"
 class VBScriptKernel(MyKernel):
     implementation = 'jupyter_MyVBScript_kernel'
     implementation_version = '1.0'
-    language = 'VB Script'
+    language = 'VBScript'
     language_version = '2.X.X'
     language_info = {'name': 'vbscript',
                      'mimetype': 'text/x-vbscript',
