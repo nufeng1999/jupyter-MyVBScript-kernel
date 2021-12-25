@@ -1262,7 +1262,7 @@ class VBScriptKernel(MyKernel):
     implementation = 'jupyter_MyVBScript_kernel'
     implementation_version = '1.0'
     language = 'VBScript'
-    language_version = '2.X.X'
+    language_version = ''
     language_info = {'name': 'vbscript',
                      'mimetype': 'text/x-vbscript',
                      'file_extension': '.vbs'}
