@@ -10,6 +10,8 @@
   * pip
 ### Step-by-step
 ```bash
+
+pip install zerorpc
 git clone https://github.com/nufeng1999/jupyter-MyVBScript-kernel.git
 cd jupyter-MyVBScript-kernel
 pip install -e . 
