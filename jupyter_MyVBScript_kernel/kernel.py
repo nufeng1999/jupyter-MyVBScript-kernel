@@ -106,7 +106,7 @@ class VBScriptKernel(MyKernel):
         ##代码运行前
         # bcancel_exec,retstr=self.raise_plugin(code,magics,return_code,file_name,3,1)
         # if bcancel_exec:return bcancel_exec,retinfo,magics, code,file_name,retstr
-        self._logln("The process :"+file_name)
+        self.mymagics._logln("The process :"+file_name)
         file_name=self.getrealpath(file_name)
         runprgargs=self.mymagics.get_magicsSvalue(magics,'runprgargs')
         cmds=['cscript',file_name]
